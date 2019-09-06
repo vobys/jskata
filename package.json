@@ -1,0 +1,45 @@
+{
+  "name": "fizzbuzz",
+  "version": "0.0.1",
+  "description": "FizzBuzz Function",
+  "private": true,
+  "license": "UNLICENSED",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "tslib": "1.9.3"
+  },
+  "devDependencies": {
+    "jest": "23.5.0",
+    "jest-junit": "5.1.0",
+    "jest-sonar-reporter": "2.0.0",
+    "lint-staged": "7.3.0",
+    "ts-jest": "23.1.4",
+    "tslint": "5.11.0",
+    "tslint-config-prettier": "1.15.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-react": "3.6.0",
+    "typescript": "3.0.1"
+  },
+  "resolutions": {},
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "lint-staged": {
+    "src/**/*.{json,ts,tsx,css,scss}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "prettier:format": "prettier --write \"src/**/*.{json,ts,tsx,css,scss}\"",
+    "lint": "tslint --project tsconfig.json -e 'node_modules/**'",
+    "test": "npm run lint && jest --coverage --logHeapUsage -w=2 --config jest.conf.js",
+    "test:watch": "npm test -- --watch"
+  },
+  "jestSonar": {
+    "reportPath": "jest",
+    "reportFile": "TESTS-results-sonar.xml"
+  }
+}
