@@ -21,14 +21,20 @@ describe('FizzBuzz Function', () => {
   });
 
   it('should returns \'Fizz\' if divides evenly with 3', () => {
-    fail('Add tests here...');
+    expect(fizzBuzz(3)).toEqual('Fizz');
+    expect(fizzBuzz(6)).toEqual('Fizz');
+    expect(fizzBuzz(9)).toEqual('Fizz');
   });
 
   it('should returns \'Buzz\' if divides evenly with 5', () => {
-    fail('Add tests here...');
+    expect(fizzBuzz(5)).toEqual('Buzz');
+    expect(fizzBuzz(10)).toEqual('Buzz');
+    expect(fizzBuzz(20)).toEqual('Buzz');
   });
 
   it('should returns \'FizzBuzz\' if divides evenly with 3 and 5', () => {
-    fail('Add tests here...');
+    expect(fizzBuzz(15)).toEqual('FizzBuzz');
+    expect(fizzBuzz(30)).toEqual('FizzBuzz');
+    expect(fizzBuzz(45)).toEqual('FizzBuzz');
   });
 });

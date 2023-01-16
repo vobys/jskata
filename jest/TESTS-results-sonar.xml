@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/lucas/Documentos/Desafio_Vobys/spec/fizzbuzz.spec.ts">
+    <testCase name="FizzBuzz Function should returns the &apos;number&apos; if not divides evenly with 3 or 5" duration="3"/>
+    <testCase name="FizzBuzz Function should returns &apos;Fizz&apos; if divides evenly with 3" duration="4">
+      <failure message="Error: Failed: &quot;Add tests here...&quot;"><![CDATA[Error: Failed: "Add tests here..."
+    at Env.fail (/home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/jasmine/Env.js:540:34)
+    at fail (/home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/jasmine/jasmine_light.js:152:23)
+    at Object.<anonymous> (/home/lucas/Documentos/Desafio_Vobys/spec/fizzbuzz.spec.ts:24:5)
+    at Object.asyncJestTest (/home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at /home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/queue_runner.js:56:12
+    at new Promise (<anonymous>)
+    at mapper (/home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at /home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/queue_runner.js:87:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)]]></failure>
+    </testCase>
+    <testCase name="FizzBuzz Function should returns &apos;Buzz&apos; if divides evenly with 5" duration="1">
+      <failure message="Error: Failed: &quot;Add tests here...&quot;"><![CDATA[Error: Failed: "Add tests here..."
+    at Env.fail (/home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/jasmine/Env.js:540:34)
+    at fail (/home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/jasmine/jasmine_light.js:152:23)
+    at Object.<anonymous> (/home/lucas/Documentos/Desafio_Vobys/spec/fizzbuzz.spec.ts:28:5)
+    at Object.asyncJestTest (/home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at /home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/queue_runner.js:56:12
+    at new Promise (<anonymous>)
+    at mapper (/home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at /home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/queue_runner.js:87:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)]]></failure>
+    </testCase>
+    <testCase name="FizzBuzz Function should returns &apos;FizzBuzz&apos; if divides evenly with 3 and 5" duration="0">
+      <failure message="Error: Failed: &quot;Add tests here...&quot;"><![CDATA[Error: Failed: "Add tests here..."
+    at Env.fail (/home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/jasmine/Env.js:540:34)
+    at fail (/home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/jasmine/jasmine_light.js:152:23)
+    at Object.<anonymous> (/home/lucas/Documentos/Desafio_Vobys/spec/fizzbuzz.spec.ts:32:5)
+    at Object.asyncJestTest (/home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at /home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/queue_runner.js:56:12
+    at new Promise (<anonymous>)
+    at mapper (/home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at /home/lucas/Documentos/Desafio_Vobys/node_modules/jest-jasmine2/build/queue_runner.js:87:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)]]></failure>
+    </testCase>
+  </file>
+</testExecutions>
